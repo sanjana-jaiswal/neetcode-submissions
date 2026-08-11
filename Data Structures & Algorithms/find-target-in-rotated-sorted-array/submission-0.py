@@ -1,0 +1,8 @@
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        # The Brute force approach
+        for i in range(len(nums)):
+            if nums[i]==target:
+                return i
+        return -1
+        
